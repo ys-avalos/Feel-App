@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box; }
+
+body{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#contenedor{padding: 0px ;
+	widht: 100%;		
+	max-width: 1300px;
+		margin:auto;
+	overflow: hidden;}
+
+nav{ text-align: right;
+	padding:  20px 0 0}
+
+nav > a { color:#FFFFFF;
+	font-weight: 300;
+	text-decoration: none; 
+	margin-right: 10px;
+		}
+nav > a:hover{ text-decoration: underline;
+	}
+
+#textos-header{ font-size: 60px; 
+		text-align: center;
+		color: #06534D;
+		padding: 100px;}
+
+
+#textos-header2{font-size: 15px;
+				text-align: center;
+				color: #FFFFFF;
+				padding-right:20px;
+				margin-left: 200px;}
+.nosotros{ width: 180px;
+		height: 180px;
+		margin: 10px;
+		align: center;}
+
+.equipo {margin: 25px;
+		color: #EF2878;
+		font-size: 25px;
+		text-align: center;}
+.nosotros:hover{ transform: scale(1.15);
+				transition: all .3s;}
+header{
+	height:600px;
+	background: #a73737;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, hsla(179, 100%, 27%, 0.61), hsla(179, 100%, 87%, 0.61));  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, hsla(179, 100%, 27%, 0.611), hsla(179, 100%, 87%, 0.61)), url("imagenes/gale9.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	 }
+.wave{position: absolute;
+		bottom: 0px;
+		width: 1500px;}
+
+.felito{float:right;
+		width: 220px;	
+		height: 250px;
+		margin:auto;
+		display: block;}
+
+.segundo{margin: 25px;
+		color: #EF2878;
+		font-size: 25px;
+		text-align: center;}
+
+.textos{ margin: 15px;
+		color: #034630;
+		font-size: 25px;
+		text-align: justify;}
+	
+img{ width: 200px;
+		float:left;
+		position:sticky; 
+		}
+
+.texto1{margin: 15px;
+		color: #034630;
+		font-size: 25px;
+		text-align: justify;
+	float: right;}
+
+
+.tercero{margin: 25px;
+		color: #EF2878;
+		font-size: 25px;
+		text-align: center;}
+
+footer {
+	widht: 100%;		
+	max-width: 1300px;
+text-align: center;background: linear-gradient(to right, hsla(179, 100%, 27%, 0.611), hsla(179, 100%, 87%, 0.61)), url("imagenes/gale9.jpg");
+}
+.titulo-final{font-size: 20px;
+				text-align: center;
+				color: #FFFFFF;
+				padding-right:20px;
+				margin-left: 200px;
+				padding: 30px;}
+
+	
+	
+
+
+
+
